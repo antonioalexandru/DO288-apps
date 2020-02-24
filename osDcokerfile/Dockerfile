@@ -1,7 +1,7 @@
 FROM node
-WORKDIR /nodeapp
+WORKDIR /home
 MAINTAINER Antonio <antonio.alexandru@ibm.com>
 EXPOSE 3000
-COPY ./server.js /nodeapp
+COPY ./server.js /home
 RUN npm install express
 CMD ["node", "./server.js"]
