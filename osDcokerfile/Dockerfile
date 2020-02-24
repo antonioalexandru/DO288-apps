@@ -1,4 +1,4 @@
-FROM node
+FROM nodejscn/node
 MAINTAINER Antonio <antonio.alexandru@ibm.com>
 EXPOSE 3000
 COPY ./server.js /var/www/myapp/
