@@ -1,6 +1,7 @@
 FROM nodejscn/node
+WORKDIR /var/www/newapp/
 MAINTAINER Antonio <antonio.alexandru@ibm.com>
 EXPOSE 3000
-COPY ./server.js /var/www/myapp/
+COPY ./server.js .
 RUN npm install express
-CMD ["node", "/var/www/myapp/server.js"]
+CMD ["node", "server.js"]
