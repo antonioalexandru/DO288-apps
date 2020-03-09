@@ -10,9 +10,7 @@ var con = mysql.createConnection({
  host: process.env.DB,
  user: process.env.USER,
  password: process.env.PASS,
- database: process.env.DATAB,
- method : 'GET',
- port: 3306
+ database: process.env.DATAB
 });
 con.connect(function(err) {
  if (err) throw err;
