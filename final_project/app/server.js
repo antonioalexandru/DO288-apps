@@ -1,5 +1,5 @@
 const apm = require('elastic-apm-node').start({
-  serviceName: 'apm-server'
+  serviceName: 'apm-server',
   serverUrl: '9.212.159.145:9200',
 })
 
