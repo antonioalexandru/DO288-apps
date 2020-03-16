@@ -1,6 +1,6 @@
 const apm = require('elastic-apm-node').start({
   serviceName: 'apm-server',
-  serverUrl: '9.212.159.145:9200'
+  serverUrl: 'http://9.212.159.145:9200'
 })
 app.listen(3000)
 var mysql = require('mysql');
