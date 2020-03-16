@@ -1,6 +1,6 @@
 const apm = require('elastic-apm-node').start({
   serviceName: 'apm-server',
-  serverUrl: '9.212.159.145:9200',
+  serverUrl: '9.212.159.145:9200'
 })
 
 const app = require('express')()
