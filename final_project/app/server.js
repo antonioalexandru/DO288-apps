@@ -1,7 +1,3 @@
-const apm = require('elastic-apm-node').start({
-  serviceName: 'apm-server',
-  serverUrl: 'http://9.212.159.145:8200'
-})
 var mysql = require('mysql');
 process.on('uncaughtException', (err) => {
  console.log(`Caught exception: ${err}`);
