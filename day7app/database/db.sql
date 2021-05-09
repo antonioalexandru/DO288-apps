@@ -14,26 +14,6 @@
 /*!40101 SET @old_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 /*!40111 SET @old_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 --
--- Table structure for table `test1`
---
-CREATE DATABASE db;
-USE db;
-DROP TABLE IF EXISTS `test1`;
-/*!40101 SET @saved_cs_client    = @@character_set_client */;
-/*!40101 SET character_set_client = utf8 */;
-CREATE TABLE `test1` (
- `nume` char(1) DEFAULT NULL,
- `culoare` char(1) DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-/*!40101 SET character_set_client = @saved_cs_client */;
---
--- Dumping data for table `test1`
---
-LOCK TABLES `test1` WRITE;
-/*!40000 ALTER TABLE `test1` DISABLE KEYS */;
-/*!40000 ALTER TABLE `test1` ENABLE KEYS */;
-UNLOCK TABLES;
---
 -- Table structure for table `test2`
 --
 CREATE DATABASE db;
