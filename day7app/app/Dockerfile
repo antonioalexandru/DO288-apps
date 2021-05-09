@@ -1,7 +1,6 @@
-FROM node:latest
-RUN mkdir /app-day-7
-WORKDIR /app-day-7
-COPY server.js /app-day-7
+FROM node:slim
+WORKDIR /home/test
+COPY server.js .
 RUN npm install express
 RUN npm install mysql
 CMD ["node", "server.js"]
