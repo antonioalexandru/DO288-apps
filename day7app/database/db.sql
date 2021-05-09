@@ -16,6 +16,8 @@
 --
 -- Table structure for table `test1`
 --
+CREATE DATABASE db;
+USE db;
 DROP TABLE IF EXISTS `test1`;
 /*!40101 SET @saved_cs_client    = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
@@ -34,6 +36,8 @@ UNLOCK TABLES;
 --
 -- Table structure for table `test2`
 --
+CREATE DATABASE db;
+USE db;
 DROP TABLE IF EXISTS `test2`;
 /*!40101 SET @saved_cs_client    = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
